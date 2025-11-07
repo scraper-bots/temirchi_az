@@ -1,5 +1,0 @@
-# Image_Watermarking_Desktop_App
- Image Watermarking Desktop App
-In this program, we use the tkinter module to create a GUI window with three elements: a button to select an image file, an entry field to enter the watermark text, and a button to add the watermark. When the user clicks the "Select Image" button, a file dialog is opened where they can select an image file. When the user clicks the "Add Watermark" button, the program checks that an image file has been selected, opens the file using the Pillow module, creates a new image for the watermark, draws the watermark text on the new image, combines the original image and the watermark, and saves the result as a new image file with "_watermarked" appended to the original filename.
-
-Note that in this example, we're using a simple white text watermark with a semi-transparent background. You can customize the watermark font, color, and position by modifying the code in the add_watermark method.
